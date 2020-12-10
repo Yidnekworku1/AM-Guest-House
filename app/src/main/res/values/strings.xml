@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AMGuestHouse</string>
+    <string name="login" translatable="true">login</string>
+
+    <string name="add" translatable="true">አስገባ</string>
+    <string name="edit" translatable="true">ማስተካከያ</string>
+    <string name="delete" translatable="true">አጥፋ</string>
+
+    <!--home activity-->
+    <string name="add_record" translatable="true">የዕለት መመዝገቢያ</string>
+    <string name="today_records" translatable="true">የዕለት መዝገብ</string>
+    <string name="history" translatable="true">ያለፉ ቀናት</string>
+    <string name="add_user" translatable="true">ሌላ ተጠቃሚ አስገባ</string>
+    <string name="wechi">ወጪ</string>
+    <string name="liquors">መጠጥ</string>
+
+    <!--add record activity-->
+    <string name="night_room" translatable="true">አዳር</string>
+    <string name="name" translatable="true">ስም</string>
+    <string name="tempo_room">ጊዜያዊ</string>
+    <string name="room_number">አልጋ ቁጥር</string>
+
+    <!--wechi activity-->
+
+    <string name="item_type" translatable="true">የዕቃው ዓይነት</string>
+    <string name="price" translatable="true">ዋጋ</string>
+    <string name="today_wechi_total" translatable="true">የዛሬ ወጪዎ ድምር</string>
+
+    <!--history-->
+    <string name="date" translatable="true">ቀን</string>
+    <string name="yeeletu_gebi" translatable="true">የዕለቱ ገቢ</string>
+    <string name="yeeletu_wechi" translatable="true">የዕለቱ ወጪ</string>
+    <string name="yetetara_gebi" translatable="true">የተጣራ ገቢ</string>
+
+    <!--today records-->
+
+    <string name="today_gebi_total" translatable="true">የዛሬ ገቢዎ ድምር</string>
+
+    <!--add user-->
+
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fontFamily="@font/nyala"
+    tools:context="com.example.yidnek.amguesthouse.AddUserActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="አዲስ ተጠቃሚ"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nyala"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+    <EditText
+        android:id="@+id/emailfield"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Email"
+        android:textColorHint="@color/grey"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_email_white"/>
+        <EditText
+            android:id="@+id/userfield"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="User Name"
+            android:textColorHint="@color/grey"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/ic_account_box_white"/>
+        <EditText
+            android:id="@+id/phonefield"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="Phone Number"
+            android:textColorHint="@color/grey"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/ic_local_phone_white"/>
+
+        <EditText
+        android:id="@+id/passwordfield"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Password"
+        android:textColorHint="@color/grey"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_lock_white"/>
+        <EditText
+            android:id="@+id/confirmpasswordfield"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="Confirmation Password"
+            android:textColorHint="@color/grey"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/ic_lock_white"/>
+
+        <RadioGroup android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/guestType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guest"
+                android:textColor="@color/white"/>
+
+            <RadioButton android:id="@+id/adminType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:text="Admin" />
+        </RadioGroup>
+    <Button
+        android:id="@+id/add_user"
+        android:text="@string/add_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/btn_bakground"
+        android:fontFamily="@font/nyala"
+        android:textSize="18dp"/>
+        <Button
+            android:id="@+id/users_list"
+            android:text="የተጠቃሚ ዝርዝር"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/btn_bakground"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/nyala"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/add_progress"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

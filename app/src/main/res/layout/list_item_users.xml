@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="28dp"
+    android:layout_margin="5dp">
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/try3"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="55dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="vertical">
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/u_email"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/teal"
+                android:textColor="@color/black"
+                android:fontFamily="@font/nyala"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_gravity="center"
+                android:text="user name"
+                android:id="@+id/u_username"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/nyala"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_gravity="center"
+                android:text="Phone"
+                android:id="@+id/u_phone"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/nyala"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_gravity="center"
+                android:text="user Type"
+                android:id="@+id/u_type"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/nyala"/>
+
+                <Button
+                    android:textColor="@color/white"
+                    android:id="@+id/u_delete"
+                    android:background="@drawable/btn_update_delete"
+                    android:text="Delete"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AMGuestHouse</string>
+    <string name="login">ግባ</string>
+    <string name="liquors">Liquors</string>
+    <string name="wechi">wechi</string>
+    <string name="add_record">Add Record</string>
+    <string name="history">History</string>
+    <string name="today_records">Today Records</string>
+    <string name="add_user">Add User</string>
+    <string name="tempo_room">ጊዜያዊ</string>
+    <string name="room_number">Room Number</string>
+    <string name="night_room">አዳር</string>
+    <string name="name">ስም</string>
+    <string name="add">Add</string>
+    <string name="item_type">Item Type</string>
+    <string name="price">Price</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="today_wechi_total">የዛሬ ወጪዎ ድምር</string>
+    <string name="date">Date</string>
+    <string name="yeeletu_gebi">የዕለቱ ገቢ</string>
+    <string name="yeeletu_wechi">የዕለቱ ወጪ</string>
+    <string name="yetetara_gebi">የተጣራ ገቢ</string>
+    <string name="today_gebi_total">የዛሬ ገቢዎ ድምር</string>
+</resources>

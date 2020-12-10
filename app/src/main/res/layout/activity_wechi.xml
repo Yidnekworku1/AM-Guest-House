@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.yidnek.amguesthouse.WechiActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wechi"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nyala"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/item_type"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="@string/item_type"
+            android:textColorHint="@color/grey"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/ic_add_shopping_cart_white"
+            android:fontFamily="@font/nyala"/>
+        <EditText
+            android:id="@+id/price"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="@string/price"
+            android:textColorHint="@color/grey"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/ic_attach_money_white"
+            android:fontFamily="@font/nyala"/>
+        <Button
+            android:id="@+id/add"
+            android:text="@string/add"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_bakground"
+            android:textSize="18dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/nyala"/>
+
+
+    </LinearLayout>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerView_wechi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+
+<ProgressBar
+    android:id="@+id/wechi_progress"
+    android:layout_gravity="center"
+    android:layout_width="80dp"
+    android:layout_height="80dp" />
+
+
+
+</LinearLayout>
